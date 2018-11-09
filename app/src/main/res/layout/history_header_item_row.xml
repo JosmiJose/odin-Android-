@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@color/primary_navy_dark"
+    android:weightSum="5"
+    android:gravity="center"
+   >
+
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ledger_row_header_date"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/list_main_text_size"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/investment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ledger_row_header_trans_id"
+            android:textColor="@color/primary_gray_light"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/ledger_row_header_amount"
+        android:textColor="@color/white"
+        android:textSize="@dimen/list_main_text_size"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/token_no"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/token"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/list_main_text_size"
+        android:layout_gravity="center"
+
+       />
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/status"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/list_main_text_size"
+        android:layout_gravity="center"
+
+        />
+
+</LinearLayout>

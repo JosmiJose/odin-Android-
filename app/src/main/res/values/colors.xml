@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#10ADE4</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="primary_navy_medium">#004A7C</color>
+    <color name="primary_blue_accent">#10ADE4</color>
+    <color name="primary_navy_dark">#153A62</color>
+    <color name="primary_gray_light">#d2ced0</color>
+    <color name="primary_gray_dark">#4c4c4c</color>
+    <color name="primary_blue_medium">#3558A8</color>
+    <color name="product_green_medium">#1EA587</color>
+    <color name="product_red_medium">#CA3A3C</color>
+    <color name="product_green_received">#0bbabc</color>
+
+    <!-- Toasts -->
+    <color name="toast_error_background">#EFD5D6</color>
+    <color name="toast_error_text">#963033</color>
+    <color name="toast_warning_background">#FBF7DB</color>
+    <color name="toast_warning_text">#775B2A</color>
+    <color name="toast_info_background">#D8F296</color>
+    <color name="toast_info_text">#4F772F</color>
+    <color name="very_light_gray">#F4F4F4</color>
+
+    <color name="listDivider">#E7E7E7</color>
+    <integer-array name="comment">
+        <item>@color/cyan</item>
+        <item>@color/blue</item>
+        <item>@color/lightGreen</item>
+        <item>@color/pink</item>
+        <item>@color/lime</item>
+        <item>@color/yellow</item>
+        <item>@color/indigo</item>
+    </integer-array>
+    <color name="cyan">#00BCD4</color>
+    <color name="blue">#2196F3</color>
+    <color name="lightGreen">#8BC34A</color>
+    <color name="pink">#E91E63</color>
+    <color name="lime">#CDDC39</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="indigo">#FFC107</color>
+    <color name="md_blue_grey_500">#607D8B</color>
+    <color name="light_grey">#F4F4F4</color>
+    <color name="primary_gray_medium">#FF808080</color>
+    <color name="review_green">#ff669900</color>
+    <color name="text_light">#66000000</color>
+    <color name="step_pager_previous_tab_color">#4433b5e5</color>
+    <color name="step_pager_selected_tab_color">#ff0099cc</color>
+    <color name="step_pager_selected_last_tab_color">#ff669900</color>
+    <color name="step_pager_next_tab_color">#10000000</color>
+    <color name="background_dark">#012B3D</color>
+
+    <!-- ZXing -->
+    <color name="barcode_viewfinder_laser">#ffcc0000</color>
+    <color name="barcode_viewfinder_mask">#60000000</color>
+    <color name="barcode_possible_result_points">#FF1B8AC7</color>
+    <color name="barcode_result_view">#b0000000</color>
+
+
+</resources>

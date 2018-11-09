@@ -1,0 +1,19 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/front_page_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.news.NewsActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/toolbar_general" />
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:id="@+id/content_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+</LinearLayout>

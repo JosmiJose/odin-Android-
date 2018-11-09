@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@color/white"
+    android:layout_weight="3.5"
+    android:gravity="center"
+   >
+
+<LinearLayout
+    android:layout_width="0dip"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:layout_weight="0.4"
+    android:gravity="center">
+    <safety.com.br.progressimageview.ProgressImageView
+        android:id="@+id/icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:src="@drawable/agency_logo_placeholder"
+        />
+</LinearLayout>
+
+       />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/portfolio_name"
+        android:textColor="@color/primary_navy_dark"
+        android:textSize="@dimen/list_main_text_size"
+        android:textStyle="bold"
+        />
+   <LinearLayout
+       android:layout_width="0dip"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:layout_weight="1">
+
+       <TextView
+           android:id="@+id/value"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/portfolio_value"
+           android:textColor="@color/primary_gray_dark"
+           android:textSize="@dimen/list_main_text_size"
+           android:textStyle="bold"/>
+
+   </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/holdings"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/portfolio_holdings"
+        android:textColor="@color/product_green_medium"
+        android:textSize="@dimen/list_main_text_size"
+        android:textStyle="bold"
+        />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@color/primary_navy_dark"
+    android:layout_weight="3.5"
+    android:gravity="center"
+   >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="0dip"
+        android:layout_height="30dp"
+        android:layout_weight="0.2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/portfolio_name"
+        android:textColor="@color/white"
+
+        />
+   <LinearLayout
+       android:layout_width="0dip"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:layout_weight="1">
+
+       <TextView
+           android:id="@+id/value"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/portfolio_value"
+           android:textColor="@color/white" />
+
+   </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/holdings"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/portfolio_holdings"
+        android:textColor="@color/white" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,186 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- Common styles across all res qualifiers resides here, anything specific can inherit from this -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/primary_blue_accent</item>
+
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/primary_navy_medium</item>
+
+        <item name="colorControlActivated">@color/primary_blue_accent</item>
+        <item name="colorControlHighlight">@color/primary_blue_accent</item>
+        <item name="preferenceTheme">
+            @style/PreferenceThemeOverlay.v14.Material
+        </item>
+    </style>
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+    <style name="ButtonStyle">
+        <item name="fontPath">fonts/Montserrat-Regular.ttf</item>
+    </style>
+    <style name="ButtonLightBlueTheme" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/primary_blue_accent</item>
+        <item name="colorControlHighlight">@color/primary_navy_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ButtonBlueTheme" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/primary_navy_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+    <style name="MegaButtonAccentBlue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_accent_blue</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontPath">fonts/Montserrat-Regular.ttf</item>
+    </style>
+    <style name="MegaButtonAccentGreen">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_accent_green</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontPath">fonts/Montserrat-Regular.ttf</item>
+    </style>
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/primary_blue_accent</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+    <style name="PinEntryButtonLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/selector_navy_blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/pinentry_padding</item>
+    </style>
+
+    <style name="PinEntryButtonNumberText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/pinentry_num_text_size</item>
+    </style>
+
+    <style name="PinEntryButtonLetterText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/pinentry_alpha_text_size</item>
+    </style>
+
+    <style name="PinEntryKeyboardHorizontalContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="PasswordChangeDialogEditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">70</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:password">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textColor">@color/primary_gray_medium</item>
+    </style>
+    <style name="EmailChangeDialogEditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">70</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:textColor">@color/primary_gray_medium</item>
+    </style>
+    <style name="PasswordChangeDialogEditTextLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="PasswordChangeDialogFieldLabel">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">30</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="WizardPageContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WizardPageTitle">
+        <item name="android:id">@android:id/title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:paddingLeft">?android:attr/listPreferredItemPaddingLeft</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#ff0099cc</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+    <style name="TextAppearanceFinish" parent="android:TextAppearance.Holo.Medium">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+
+    <style name="WizardFormLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+    </style>
+    <style parent="@android:style/Widget.Spinner" name="SpinnerwithNoArrow">
+        <item name="android:background"></item>
+    </style>
+
+</resources>

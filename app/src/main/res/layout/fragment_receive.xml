@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/very_light_gray"
+    >
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:descendantFocusability="beforeDescendants"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/receive_main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="32dp"
+            >
+
+
+            <LinearLayout
+                android:id="@+id/image_qr_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@color/white">
+                <ImageView
+                    android:id="@+id/image_qr"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:contentDescription="@string/scan_qr"
+                    />
+                <ImageView
+                    android:id="@+id/image_qr_error"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:contentDescription="@string/scan_qr"
+                    android:src="@drawable/qr_code_placeholder"
+                    android:visibility="gone"
+                    />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/textview_receiving_address"
+                fontPath="fonts/Montserrat-Regular.ttf"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="32dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:padding="8dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_qr_layout"
+                tools:ignore="MissingPrefix"
+                android:background="@color/white"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/textview_receive_helper"
+                fontPath="fonts/Montserrat-Regular.ttf"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="32dp"
+                android:gravity="center_horizontal|top"
+                android:text="@string/share_instructions"
+                android:textColor="@color/primary_gray_dark"
+                app:layout_constraintTop_toBottomOf="@+id/textview_receiving_address"
+                tools:ignore="MissingPrefix"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textSize="16sp"
+                android:textStyle="italic"
+               />
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintBottom_toBottomOf="@+id/image_qr_layout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/image_qr_layout" />
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

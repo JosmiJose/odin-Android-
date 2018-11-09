@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:gravity="center_horizontal"
+    tools:ignore="MissingPrefix">
+    <TextView
+        android:text="@string/redeemable_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        fontPath="fonts/Montserrat-Regular.ttf"
+        />
+    <TextView
+        android:id="@+id/points_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/product_green_medium"
+        android:textSize="100sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        fontPath="fonts/Montserrat-Regular.ttf"
+        />
+
+    <TextView
+        android:id="@+id/how_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/primary_gray_dark"
+        android:text="How to earn points ?"
+        android:layout_margin="32dp"
+        android:background="?attr/selectableItemBackground"
+        android:textStyle="italic"/>
+
+</LinearLayout>

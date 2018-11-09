@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ODINウォレット</string>
+    <string name="create_a_wallet">ウォレットの作成</string>
+    <string name="log_in">ログイン</string>
+    <string name="new_wallet">新しいウォレット</string>
+    <string name="strength_weak">弱い</string>
+    <string name="strength_medium">通常</string>
+    <string name="strength_strong">強い</string>
+    <string name="strength_normal">ノーマル</string>
+    <string name="agree_terms_of_service">新しいウォレットを作成すると、</string>
+    <string name="create_wallet">ウォレットの作成</string>
+    <string name="password">パスワード</string>
+    <string name="email">Eメール</string>
+    <string name="confirm_password">パスワードの確認</string>
+    <string name="ssl_pinning_invalid">ホストへの安全な接続が失敗しました。これは悪意のある活動を示す可能性があります。続行する前に、ネットワーク接続とデバイスを確認してください。</string>
+    <string name="ssl_no_connection">安全な接続を確立するためにホストに接続できません。続行する前に、ネットワーク接続とデバイスを確認してください。</string>
+    <string name="retry">再試行</string>
+    <string name="exit">終了</string>
+    <string name="invalid_email">無効なメールアドレス</string>
+    <string name="invalid_mobile">無効な携帯電話番号</string>
+    <string name="empty_address">宛先アドレスを記入してください</string>
+    <string name="invalid_address">無効なアドレス</string>
+    <string name="empty_amount">有効な金額を入力してください</string>
+    <string name="no_enough_odin_balance">あなたはこの交換のための十分なオディンバランスを持っていません</string>
+    <string name="too_many_decimal_points">Not allowed number of decimal points</string>
+    <string name="not_enough_balance">"十分なトークン残高がありません"</string>
+    <string name="not_enough_token_supply">"トークンの供給が不十分です"</string>
+    <string name="not_enough_transaction_fee">"この取引の手数料のための十分なイーサを持っていません。"</string>
+    <string name="min_trans_fee">"0.0001 ETH"</string>
+    <string name="invalid_password">"無効なパスワード"</string>
+    <string name="invalid_password_too_short">"3文字以上入力してください"</string>
+    <string name="password_mismatch_error">"パスワードが一致していません"</string>
+    <string name="creating_wallet">"ウォレットの作成"</string>
+    <string name="hd_error">"HDウォレットエラー"</string>
+    <string name="blockchain_tos">"ODIN利用規約"</string>
+    <string name="weak_password">"選択したパスワードが弱すぎます。別のものを選択することを強くお勧めします。新しいパスワードを定義しますか？"</string>
+    <string name="yes">"はい"</string>
+    <string name="no">"いいえ"</string>
+    <string name="cancel">"キャンセル"</string>
+    <string name="noImageAvailable">"使用可能なイメージはありません"</string>
+    <string name="dialog_continue">"続行"</string>
+    <string name="password_reveal_warning">"注意してください！このテキストを明らかにすることで、パスワードをクリップボードにコピーし、デバイス上のすべてのアプリケーションで読み取ることができます。また、後ろに立っている人々に注意してください!"</string>
+    <string name="action_settings">"設定"</string>
+    <string name="pin_entry">"PINを入力"</string>
+    <string name="swipe_receive_hint">"スワイプで受信"</string>
+    <string name="create_pin">"PINの作成"</string>
+    <string name="pin_4_strikes">"4回のPIN試行に失敗しました。もう一度ログインしてください。"</string>
+    <string name="password_or_wipe">"パスワードを入力するか、ウォレット忘れをしてください"</string>
+    <string name="use_password">"パスワードの使用"</string>
+    <string name="wipe_wallet">"ウォレット忘れ"</string>
+    <string name="password_entry">"パスワードを入力してください"</string>
+    <string name="validating_password">"パスワードの検証"</string>
+    <string name="validating_pin">"PINの検証"</string>
+    <string name="zero_pin">"0000は無効なPINです。もう一度お試しください。"</string>
+    <string name="common_pin_dialog_title">"警告"</string>
+    <string name="common_pin_dialog_message">"選択したPINは非常に一般的なもので、3回以内に携帯電話にアクセスできる人が簡単に推測できます。まだこのPINを使いたいですか？"</string>
+    <string name="common_pin_dialog_try_again">"もう一度やり直してください"</string>
+    <string name="common_pin_dialog_continue">続行</string>
+    <string name="confirm_pin">"PINの確認"</string>
+    <string name="pin_mismatch_error">"PINが一致しません"</string>
+    <string name="invalid_pin">"PINが無効です。もう一度お試しください。"</string>
+    <string name="login">"ログイン"</string>
+    <string name="logout">"ログアウト"</string>
+    <string name="send_odin">"送信"</string>
+    <string name="receive_odin">"リクエスト"</string>
+    <string name="overview">"トランザクション"</string>
+    <string name="dashboard_title">"ホーム"</string>
+    <string name="portfolio_title">"ポートフォリオ"</string>
+    <string name="exchange_title">"交換"</string>
+    <string name="portfolio_name">"名"</string>
+    <string name="portfolio_value">"値"</string>
+    <string name="portfolio_holdings">"保有数"</string>
+    <string name="exchange_header">"プレICOトークンへのODINの交換"</string>
+    <string name="rate">"レート："</string>
+    <string name="amount_label">0.000</string>
+    <string name="available_tokens">"利用可能"</string>
+    <string name="read_more">"もっと詳しく"</string>
+    <string name="maximum">"最大"</string>
+    <string name="minimum">"最小"</string>
+    <string name="forgot_password">"パスワードをお忘れですか？"</string>
+    <string name="logout_title">ログアウト</string>
+    <string name="logout_confirm_msg">"ログアウトしてもよろしいですか？"</string>
+    <string name="token">"トークン"</string>
+    <string name="sent">"送信済"</string>
+    <string name="received">"受信済"</string>
+    <string name="ico_token">"ICOトークン"</string>
+    <string name="ledger_row_header_date">"日付"</string>
+    <string name="ledger_row_header_invest_id">"投資ID"</string>
+    <string name="ledger_row_header_amount">"金額"</string>
+    <string name="ledger_row_header_trans_id">"トランザクションハッシュ"</string>
+    <string name="share_instructions">"タップしてこのアドレスをコピーします。電子メールまたはテキストで送信者と共有します。"</string>
+    <string name="scan_qr">"スキャンQRコード"</string>
+    <string name="receive_address_to_clipboard">"この受信アドレスをクリップボードにコピーしますか？その場合は、他のアプリケーションがこの情報を参照できる可能性があることに注意してください。"</string>
+    <string name="copied_to_clipboard">"クリップボードにコピーしました"</string>
+    <string name="copy_to_clipboard">"クリップボードにコピー"</string>
+    <string name="odin_points">"ODINポイント"</string>
+    <string name="odin_divided_points">"ODIN\nポイント"</string>
+    <string name="news_feed">"ニュースフィード"</string>
+    <string name="news_details">"ニュースの詳細"</string>
+    <string name="subscription">"加入"</string>
+    <string name="faq">"よくある質問"</string>
+    <string name="help_center">"ヘルプセンター"</string>
+    <string name="send_choose_coin">"送信するコインの選択"</string>
+    <string name="enter_wallet_address">"ウォレットのアドレスを入力してください"</string>
+    <string name="enter_amount">"金額の記入"</string>
+    <string name="transaction_fee">"最低手数料："</string>
+    <string name="points_info">"情報"</string>
+    <string name="points_history">"履歴"</string>
+    <string name="redeemable_points">"引換可能ポイント"</string>
+    <string name="subscribe">"加入"</string>
+    <string name="subscription_title">Subscription</string>
+    <string name="available_points">"利用可能なODINポイント："</string>
+    <string name="select_package">"希望する加入を選択してください"</string>
+    <string name="profile">"プロファイル"</string>
+    <string name="options_id">"ウォレットID"</string>
+    <string name="account_status">"アカウントの状態"</string>
+    <string name="mobile">"モバイル"</string>
+    <string name="security">"セキュリティ"</string>
+    <string name="change_pin_code">"PINの変更"</string>
+    <string name="change_password">"パスワードの変更"</string>
+    <string name="reset_password">"パスワードの再設定"</string>
+    <string name="app">"アプリ"</string>
+    <string name="how_to_earn_points">"ポイントの獲得するには?"</string>
+    <string name="preferences_about_title">"我々について"</string>
+    <string name="options_tos">"利用規約"</string>
+    <string name="options_privacy">"個人情報保護方針"</string>
+    <string name="backup_key">"バックアップキー"</string>
+    <string name="guid_to_clipboard">"ウォレットIDをクリップボードにコピーしますか？その場合は、他のアプリケーションがこの情報を参照できる可能性があることに注意してください。"</string>
+    <string name="trans_to_clipboard">"トランザクションハッシュをクリップボードにコピーしますか？その場合は、他のアプリケーションがこの情報を参照できる可能性があることに注意してください。"</string>
+    <string name="backup_guid_to_clipboard">"バックアップキーをクリップボードにコピーしますか？その場合は、他のアプリケーションがこの情報を参照できる可能性があることに注意してください。"</string>
+    <string name="verify_email2">"確認済みのメールアドレスは、必要に応じて通知を送信するために使用されます。"</string>
+    <string name="update">"更新"</string>
+    <string name="resend">"再送信"</string>
+    <string name="not_specified">"指定なし"</string>
+    <string name="not_available">"利用不可"</string>
+    <string name="verify">"確認"</string>
+    <string name="password_changed_notice">"パスワードが変更されました"</string>
+    <string name="warning">警告</string>
+    <string name="change_password_summary">"パスワードはサーバーと共有されません。パスワードを忘れた場合は、パスワードを再設定することはできません。パスワードを忘れた場合に、ウォレットへのアクセスを復元できるサイドメニューから資金をバックアップしてください。"</string>
+    <string name="polite_no">"いいえ、遠慮します"</string>
+    <string name="change_password_new_matches_current">"現在のパスワードを新しいパスワードとして使用することはできません"</string>
+    <string name="password_changed">"パスワード変更済み"</string>
+    <string name="email_sent">"メール送信済み"</string>
+    <string name="email_not_verified">"メールの確認"</string>
+    <string name="email_sent_msg">"パスワードのリセットリンクがメールに送信されました.."</string>
+    <string name="email_not_verified_msg">"メールは確認されていません。登録時にメールに送信されたリンクをクリックしてください。"</string>
+    <string name="current_password">"現在のパスワード"</string>
+    <string name="new_password">"新しいパスワード"</string>
+    <string name="kyc">"KYC"</string>
+    <string name="wallet">"ウォレット"</string>
+    <string name="first_name_hint">"姓"</string>
+    <string name="last_name_hint">"名"</string>
+    <string name="middle_name_hint">"ミドルネーム"</string>
+    <string name="date_of_birth_hint">"生年月日"</string>
+    <string name="email_hint">Eメール</string>
+    <string name="mobile_number_hint">"携帯電話番号"</string>
+    <string name="next">"次"</string>
+    <string name="prev">"前"</string>
+    <string name="review">"レビュー"</string>
+    <string name="finish">"更新の送信"</string>
+    <string name="label_your_name">"例) ラリー"</string>
+    <string name="label_your_email">Eメール</string>
+    <string name="hint_your_name">e.g. Larry</string>
+    <string name="hint_your_email">"オプショナル"</string>
+    <string name="personal_info">"個人情報"</string>
+    <string name="update_profile">"プロファイルの更新"</string>
+    <string name="hint_gender">"私は"</string>
+    <string name="male">"男性"</string>
+    <string name="female">"女性"</string>
+    <string name="proof_of_identity">"身元証明"</string>
+    <string name="hint_document_type">"ドキュメントタイプ"</string>
+    <string name="number_hint">"数"</string>
+    <string name="tax_hint">"納税者番号"</string>
+    <string name="expiry_date">"有効期限"</string>
+    <string name="front_image_text">"フロントイメージ"</string>
+    <string name="back_image_text">"公共料金"</string>
+    <string name="selfie_image_text">"セルフィーイメージ"</string>
+    <string name="your_name">"名前は"</string>
+    <string name="your_f_name">"姓名は"</string>
+    <string name="your_m_name">"ミドルネームは"</string>
+    <string name="your_l_name">"名字は"</string>
+    <string name="your_dob">"誕生日は"</string>
+    <string name="your_gender">"性別は"</string>
+    <string name="your_country">"居住国は"</string>
+    <string name="your_phone">"電話は"</string>
+    <string name="your_doc_type">"ドキュメントタイプは"</string>
+    <string name="your_doc_number">"ドキュメント番号は"</string>
+    <string name="your_doc_expiry_date">"ドキュメント有効期限は"</string>
+    <string name="your_nationality">"国籍は"</string>
+    <string name="nationality">"国籍"</string>
+    <string name="document_type">"ドキュメントタイプ"</string>
+    <string name="your_phone_country">"お使いの携帯電話の国は"</string>
+    <string name="your_home_country">"母国は"</string>
+    <string name="your_front_image">"ドキュメントのフロントイメージは"</string>
+    <string name="your_back_image">"ドキュメントのバックイメージは"</string>
+    <string name="your_selfie_image">"ドキュメントのセルフィーイメージは"</string>
+    <string name="action_photo_pick">"メディアの追加"</string>
+    <string name="action_photo_take">"写真を撮る"</string>
+    <string name="error_media_upload_opening">"そのファイルを開くことができませんでした。"</string>
+    <string name="error_media_upload_size">"ファイルは2MB未満でなければなりません。"</string>
+    <string name="error_media_upload_image_or_video">"画像と動画を同じステータスに添付することはできません。"</string>
+    <string name="error_media_upload_type">"そのタイプのファイルはアップロードできません。"</string>
+    <string name="action_set_caption">"キャプションの設定"</string>
+    <string name="action_remove_media">"削除"</string>
+    <string name="action_delete">"削除"</string>
+    <string name="phone_number">"電話番号"</string>
+    <string name="state_hint">"州"</string>
+    <string name="city_hint">"都市"</string>
+    <string name="zipcode_hint">"郵便番号"</string>
+    <string name="address1_hint">"住所 1"</string>
+    <string name="address2_hint">"住所 2"</string>
+    <string name="residential_address">"居住地住所"</string>
+    <string name="country">"居住国"</string>
+    <string name="home_country">"母国"</string>
+    <string name="your_state">"州は"</string>
+    <string name="your_city">"都市は"</string>
+    <string name="your_zipcode">"郵便番号は"</string>
+    <string name="your_address1">"住所1は"</string>
+    <string name="your_address2">"住所2は"</string>
+    <string name="main_page_buy">"購入"</string>
+    <string name="ico_about">"会社案内"</string>
+    <string name="ico_reviews">"レビュー"</string>
+    <string name="ico_team">"チーム"</string>
+    <string name="website">"ウェブサイト"</string>
+    <string name="ticker">"ティッカー"</string>
+    <string name="total_supply">"総供給"</string>
+    <string name="ico_start_date">"ICO開始日"</string>
+    <string name="ico_end_date">"ICO終了日"</string>
+    <string name="company_description">"会社概要"</string>
+    <string name="contract_address">"契約住所"</string>
+    <string name="est_date_of_release">"トークンリリース予定日"</string>
+    <string name="subscription_history">歴史</string>
+    <string name="subscription_start_date">"開始日"</string>
+    <string name="subscription_end_date">"終了日"</string>
+    <string name="subscription_type">"タイプ"</string>
+    <string name="subscription_points">"ポイント"</string>
+    <string name="registeration_error">"登録を行うことができません、後でもう一度やり直してください"</string>
+    <string name="change_password_error">"パスワードを変更できない場合は、後でもう一度やり直してください"</string>
+    <string name="prev_password_incorrect">現在のパスワードが正しくありません</string>
+    <string name="login_error">"ログインできません、後でもう一度やり直してください"</string>
+    <string name="reset_password_error">"パスワードをリセットできません、後でもう一度やり直してください"</string>
+    <string name="logout_error">"ログアウトできない場合は、後でもう一度やり直してください"</string>
+    <string name="create_profile_error">"プロファイルを更新できません、後でもう一度やり直してください"</string>
+    <string name="too_large_name">"大きすぎる名前"</string>
+    <string name="does_not_accept_numbers">このフィールドには数字を含めることはできません</string>
+    <string name="does_not_accept_special_characters">このフィールドには特殊文字を使用できません</string>
+    <string name="unverified_profile">"このトランザクションを実行するには、プロファイルが未確認です"</string>
+    <string name="auth_prefix">Token</string>
+    <string name="success_register_title">"登録成功"</string>
+    <string name="success_register">"お客様のアカウントが正常に作成されている、お客様のメールの受信トレイを確認し、ウォレットにログインできるようにメールを確認してください"</string>
+    <string name="back_to_main">"メインページに戻る"</string>
+    <string name="back_to_landing">"リンク先ページに戻る"</string>
+    <string name="get_profile_error">"プロファイルを取得できません、後でもう一度やり直してください"</string>
+    <string name="no_network_error">"インターネット接続なし"</string>
+    <string name="send_token_error">"トークンを送信できません、後で再試行してください"</string>
+    <string name="exchange_pre_ico_failed">"プレICOを交換することはできません、後でもう一度試してください"</string>
+    <string name="your_purpose_of_action">"行動の目的は"</string>
+    <string name="your_planned_investment_range">"計画投資の範囲は"</string>
+    <string name="your_industry">"業界は"</string>
+    <string name="your_work_type">"仕事の種類は"</string>
+    <string name="your_tax_id">"納税者番号は"</string>
+    <string name="investment_details">"投資の詳細"</string>
+    <string name="industry">"業界"</string>
+    <string name="purpose_of_action">"行動の目的"</string>
+    <string name="planned_invest_range">"計画投資の範囲"</string>
+    <string name="work_type">"仕事の種類"</string>
+    <string name="odin">"ODIN"</string>
+    <string name="etherum">"イーサリアム"</string>
+    <string name="update_profile_success">"プロファイル更新成功"</string>
+    <string name="update_pin_success">アップデートの成功</string>
+    <string name="send_token_success">"トークン送信成功"</string>
+    <string name="exchange_token_success">"トークン交換成功"</string>
+    <string name="update_profile_success_msg">"プロファイルが正常に更新されました。現在は承認待ちです。プロフィールが承認されると、電子メールを介して通知されます。"</string>
+    <string name="update_pin_success_msg">ピンが正常に更新されました </string>
+    <string name="status_not_updated">"更新なし"</string>
+    <string name="status_pending">"検証の保留中"</string>
+    <string name="status_approved">"検証済み"</string>
+    <string name="status_rejected">"未確認"</string>
+    <string name="get_history_error">"履歴を読み込めません、後でもう一度やり直してください"</string>
+    <string name="get_news_failed">"ニュースを読み込めません、後でもう一度やり直してください"</string>
+    <string name="get_data_error">"データを読み込めません、後でもう一度やり直してください"</string>
+    <string name="get_subscription_list_error">"加入パッケージを読み込めません、後でもう一度やり直してください"</string>
+    <string name="no_data_available">"データなし"</string>
+    <string name="no_team_members_added">"チームメンバーが追加されていません"</string>
+    <string name="premium_news">"プレミアムニュース"</string>
+    <string name="premium_pre_ico">"プレミアムプレICO"</string>
+    <string name="subscribe_error">"加入エラー"</string>
+    <string name="subscribe_success">"加入成功"</string>
+    <string name="subscribe_success_msg">"正常に加入しました。加入期間中、プレミアムニュースとプレICOにアクセスできるようになりました"</string>
+    <string name="subscription_duration_part_one">"次のプレミアムアクセスを持つ"</string>
+    <string name="subscription_duration_part_two">"日"</string>
+    <string name="format_relative_time_with_prefix">"%1$sで更新済み"</string>
+    <string name="profile_should_be_updated">"この操作を実行するには、アカウントステータスを確認する必要があります"</string>
+    <string name="account_must_be_verified_qr">"ウォレットIDとQRコードを表示するには、アカウントステータスを確認する必要があります"</string>
+    <string name="you_are_memeber">"あなたは現在プレミアムユーザーです"</string>
+    <string name="you_dont_have_enough_points">"このパッケージを加入するのに十分なポイントがありません"</string>
+    <string name="you_are_not_memeber">"あなたはプレミアムユーザーではありません"</string>
+    <string name="company_name_prefix">"会社 ："</string>
+    <string name="private_key">"秘密鍵"</string>
+    <string name="seed">"シード"</string>
+    <string name="status">"ステータス"</string>
+    <string name="request_camera_permission">"カメラへのアクセスが必要です"</string>
+    <string name="ok_cap">OK</string>
+    <string name="no_current_icos">交換用のICOはありません</string>
+    <string name="no_current_holdings">"現在送信できるホールディングスがない場合は、送信する前にトークンを購入または受信する必要があります"</string>
+    <string name="camera_unavailable">"カメラは現在別のアプリケーションによって開かれています。他のアプリケーションを閉じて、もう一度やり直してください"</string>
+    <string name="update_profile_reminder">"ウォレットを使用するようにプロファイルを更新する必要があります。今すぐプロファイルを更新しますか？"</string>
+    <string name="upload_photo_guidlines_title">"写真アップロードのガイドライン"</string>
+    <string name="upload_photo_guidlines">"1. クリア写真と2MBの制限内の良い品質の画像
+- ファイルが既に非常に小さい場合、それを圧縮しないでください
+- 少なくとも2.0メガピクセルの解像度を持つデジタルカメラを選択してください
+
+2. 自撮りは、フレア (すなわち光反射) なしで明確にする必要があります、特に本人が眼鏡をかけている場合
+
+3. ID と自撮りの両方を垂直方向にアップロードする必要があります
+
+4. 自撮りの場合は、カメラの向きを確認し、角度を取らないようにしてください
+
+5. ファイルフォークリフトは、JPEG または PNG のいずれかでなければなりません。PDF の顔の比較を通過することはできません"</string>
+    <string-array name="purpose_options">
+        <item>Select an Option</item>
+        <item>Short term Investment</item>
+        <item>Long term Investment</item>
+        <item>Spending on eCommerce</item>
+    </string-array>
+    <string-array name="planned_options">
+        <item>Select an Option</item>
+        <item>US$1-$200</item>
+        <item>US$201-$1,000</item>
+        <item>US$1,001-$5,000</item>
+        <item>US$5,001-$25,000</item>
+        <item>US$25,001+</item>
+    </string-array>
+    <string-array name="Industry_options">
+        <item>Select an Option</item>
+        <item>Agriculture, forestry and fishing</item>
+        <item>Minning and quarrying</item>
+        <item>Manufacturing</item>
+        <item>Electricity,gas,steam,and air conditioning supply</item>
+        <item>Water supply, sewerage, waste management</item>
+        <item>Construction</item>
+        <item>Wholesale and retail trade ; repair of motor vehicles</item>
+        <item>Transportation and storage</item>
+        <item>Accomodation and food service delivery</item>
+        <item>Information and communication</item>
+        <item>Financial and insurance activities</item>
+        <item>Real estate activities</item>
+        <item>Professional, scientific and technical activities</item>
+        <item>Administrative and support service activities</item>
+        <item>Public Administration and defence; compulsory social security</item>
+        <item>Education</item>
+        <item>Human health and social work activities</item>
+        <item>Arts,entertainment and recreation</item>
+        <item>Other service activities</item>
+        <item>Activities of households as employers</item>
+        <item>Activities of extraterritorial organizations and bodies</item>
+    </string-array>
+    <string-array name="work_type_options">
+        <item>Select an Option</item>
+        <item>Self-Employed / Business Owner</item>
+        <item>Salaried-Executive Level</item>
+        <item>Salaried-General</item>
+        <item>Homemaker</item>
+        <item>Student</item>
+        <item>Unemployed</item>
+        <item>Retired</item>
+    </string-array>
+    <string name="tax_id_note">納税者番号の記入に関するガイドラインについては、KYC odinwallet.ioを参照してください。</string>
+    <string name="invalid_age">年齢は15歳以上でなければなりません</string>
+    <string name="please_wait">お待ちください...</string>
+    <string name="allow_only_english_alphabet">入力は英語のアルファベット文字でなければなりません。</string>
+
+</resources>

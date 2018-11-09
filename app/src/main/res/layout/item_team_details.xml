@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/team_card_back"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_image_profile_main"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/user_profile"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="3dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Waleed khaled"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="This is a mobile developer"
+        android:textColor="@color/primary_gray_light"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/linked_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="https://linkedin.com/abc"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:autoLink="web"/>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:weightSum="3"
+   >
+    <TextView
+        android:id="@+id/start_date"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/subscription_start_date"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/list_main_text_size"/>
+
+
+    <TextView
+        android:id="@+id/end_date"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/subscription_end_date"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/list_main_text_size"/>
+
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/subscription_points"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/list_main_text_size"
+
+
+       />
+
+
+</LinearLayout>

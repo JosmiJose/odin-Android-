@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary_navy_dark"
+    >
+
+    <LinearLayout
+        android:id="@+id/mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+      >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_navy_dark"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="I am new , what is this"
+                android:textColor="@color/white"
+                android:layout_marginLeft="8dp"/>
+
+            <ImageView
+                android:id="@+id/fab"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:src="@drawable/expand" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="This is odin investment wallet , where you can easily invest your spare change while you spend , Track your investment progress here and withdraw anytime you wish !"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+
+
+
+</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+    <RelativeLayout
+        android:id="@+id/alt_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:visibility="gone"
+
+        >
+
+        <TextView
+            android:id="@+id/alt_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:minLines="2"
+            android:singleLine="false"
+            android:text="@string/profile_should_be_updated" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="260dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    fontPath="fonts/Montserrat-Regular.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/send_choose_coin"
+                    android:textColor="@color/primary_navy_dark"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+                <Spinner
+                    android:id="@+id/spinner_token"
+                    fontPath="fonts/Montserrat-Regular.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:dropDownSelector="?attr/selectableItemBackground"
+                    android:dropDownWidth="250dp" />
+
+            </LinearLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_wallet_address"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_amount"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/maximum"
+                    fontPath="fonts/Montserrat-Regular.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:text="@string/maximum"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    fontPath="fonts/Montserrat-Regular.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:text="@string/minimum"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/transaction_fee" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/min_trans_fee"
+                    android:textColor="@color/product_red_medium" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/command_next"
+                style="@style/MegaButtonAccentGreen"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_margin="32dp"
+                android:text="@string/dialog_continue" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@color/white"
+   android:weightSum="5"
+    android:gravity="center"
+    >
+
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ledger_row_header_date"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/investment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ledger_row_header_trans_id"
+            android:textColor="@color/md_blue_grey_500"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="11sp"
+            android:layout_gravity="center"
+            android:autoLink="web"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/ledger_row_header_amount"
+        android:textColor="@color/black"
+        android:textSize="@dimen/list_main_text_size"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/token_no"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/token"
+        android:textColor="@color/product_green_medium"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/list_main_text_size"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/status"
+        android:textColor="@color/black"
+        android:textSize="@dimen/list_main_text_size"
+        />
+</LinearLayout>

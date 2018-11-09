@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <btm.odinandroidwallet.ui.settings.customPrefs.CustomPreferenceCategory
+        android:key="wallet"
+        android:title="@string/wallet">
+        <btm.odinandroidwallet.ui.settings.customPrefs.CustomPreference
+            android:key="email"
+            android:title="@string/email" />
+        <btm.odinandroidwallet.ui.settings.customPrefs.CustomPreference
+            android:key="guid"
+            android:title="@string/options_id" />
+
+        <btm.odinandroidwallet.ui.settings.customPrefs.CustomPreference
+            android:key="profile_status"
+            android:title="@string/account_status" />
+        <btm.odinandroidwallet.ui.settings.customPrefs.CustomPreference
+            android:key="private_key"
+            android:title="@string/private_key" />
+        <btm.odinandroidwallet.ui.settings.customPrefs.CustomPreference
+            android:key="seed"
+            android:title="@string/seed" />
+    </btm.odinandroidwallet.ui.settings.customPrefs.CustomPreferenceCategory>
+
+
+    <btm.odinandroidwallet.ui.settings.customPrefs.CustomPreferenceCategory
+        android:key="security"
+        android:title="@string/security">
+        <btm.odinandroidwallet.ui.settings.customPrefs.CustomPreference
+            android:key="pin"
+            android:title="@string/change_pin_code" />
+        <btm.odinandroidwallet.ui.settings.customPrefs.CustomPreference
+            android:key="change_pw"
+            android:title="@string/change_password" />
+
+    </btm.odinandroidwallet.ui.settings.customPrefs.CustomPreferenceCategory>
+
+    <btm.odinandroidwallet.ui.settings.customPrefs.CustomPreferenceCategory
+        android:key="app"
+        android:title="@string/app">
+        <btm.odinandroidwallet.ui.settings.customPrefs.CustomPreference
+            android:key="about"
+            android:title="@string/preferences_about_title" />
+        <btm.odinandroidwallet.ui.settings.customPrefs.CustomPreference
+            android:key="tos"
+            android:title="@string/options_tos" />
+        <!--<btm.odinandroidwallet.ui.settings.customPrefs.CustomPreference
+            android:key="privacy"
+            android:title="@string/options_privacy" />-->
+    </btm.odinandroidwallet.ui.settings.customPrefs.CustomPreferenceCategory>
+
+</android.support.v7.preference.PreferenceScreen>

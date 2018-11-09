@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pinentry_num_text_size">25sp</dimen>
+    <dimen name="pinentry_alpha_text_size">9sp</dimen>
+    <dimen name="pinentry_padding">5dp</dimen>
+    <dimen name="pinentry_hint_size">16sp</dimen>
+    <dimen name="action_bar_height">56dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="list_main_text_size">16sp</dimen>
+    <dimen name="step_pager_tab_width">32dp</dimen>
+    <dimen name="step_pager_tab_height">3dp</dimen>
+    <dimen name="step_pager_tab_spacing">4dp</dimen>
+    <dimen name="compose_media_preview_margin">8dp</dimen>
+    <dimen name="compose_media_preview_margin_bottom">0dp</dimen>
+    <dimen name="compose_media_preview_side">120dp</dimen>
+    <dimen name="compose_options_margin">8dp</dimen>
+    <dimen name="team_item_padding">12dp</dimen>
+    <dimen name="team_column_width">120dp</dimen>
+</resources>

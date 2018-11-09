@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/list_main_text_size"
+    android:paddingRight="@dimen/list_main_text_size"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/featureImageContainer"
+        android:layout_toLeftOf="@+id/featureImageContainer"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/primary_navy_dark"
+            android:textSize="16sp"
+            android:text="public"/>
+        <TextView
+            android:id="@+id/body"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:text="THis is my first news to create the wallet and It would be more hello to do things"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <btm.odinandroidwallet.ui.views.PrefixRttv
+                android:id="@+id/relativeTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="?android:textColorSecondary" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:id="@+id/featureImageContainer"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp">
+
+        <safety.com.br.progressimageview.ProgressImageView
+            android:id="@+id/featureImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/noImageAvailable"
+              />
+
+    </FrameLayout>
+
+</RelativeLayout>

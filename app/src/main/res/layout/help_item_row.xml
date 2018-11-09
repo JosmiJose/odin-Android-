@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary_navy_dark"
+   android:padding="5dp">
+
+    <TextView
+        android:id="@+id/cat_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="Category 1"
+        android:textColor="@color/white"
+        android:layout_marginLeft="8dp"/>
+
+    <RelativeLayout
+        android:id="@+id/fab"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@drawable/circle_green_background"
+        android:text="@string/main_page_buy"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        >
+
+        <ImageView
+            android:id="@+id/plus_icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_keyboard_arrow_right_white_18dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

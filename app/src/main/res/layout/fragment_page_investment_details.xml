@@ -1,0 +1,133 @@
+<!--
+  Copyright 2013 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/WizardPageContainer"
+    tools:ignore="MissingPrefix"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView style="@style/WizardPageTitle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:scrollbarStyle="outsideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/purpose_of_action"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/purpose"
+                fontPath="fonts/Montserrat-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:dropDownSelector="?attr/selectableItemBackground"
+                android:dropDownWidth="250dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/planned_invest_range"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/planned_range"
+                fontPath="fonts/Montserrat-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:dropDownSelector="?attr/selectableItemBackground"
+                android:dropDownWidth="250dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/industry"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/industry"
+                fontPath="fonts/Montserrat-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:dropDownSelector="?attr/selectableItemBackground"
+                android:dropDownWidth="250dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/work_type"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/work_type"
+                fontPath="fonts/Montserrat-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:dropDownSelector="?attr/selectableItemBackground"
+                android:dropDownWidth="250dp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/tax_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/tax_hint"
+                    android:imeActionId="6"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/tax_id_note"
+                    android:gravity="center"
+                    android:textColor="@color/primary_gray_dark"
+                    android:textSize="12sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

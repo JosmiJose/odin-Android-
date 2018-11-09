@@ -1,0 +1,149 @@
+<!--
+  Copyright 2013 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/WizardPageContainer">
+
+    <TextView style="@style/WizardPageTitle" />
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:scrollbarStyle="outsideOverlay">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/country"
+                android:textSize="18sp" />
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/select_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ccp_defaultNameCode="JP"
+                app:ccp_showFullName="true"
+                app:ccp_showNameCode="false"
+                app:ccp_showPhoneCode="false"
+                android:layout_marginBottom="16dp"
+              />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:id="@+id/state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/state_hint"
+                    android:imeActionId="6"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:id="@+id/city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/city_hint"
+                    android:imeActionId="6"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/zip_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:hint="@string/zipcode_hint"
+                    android:imeActionId="6"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                  />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/address1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:hint="@string/address1_hint"
+                    android:imeActionId="6"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPostalAddress|textCapWords|textNoSuggestions"
+                    android:maxLines="1"
+                    android:singleLine="true"
+
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/address2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:hint="@string/address2_hint"
+                    android:imeActionId="6"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPostalAddress|textCapWords|textNoSuggestions"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

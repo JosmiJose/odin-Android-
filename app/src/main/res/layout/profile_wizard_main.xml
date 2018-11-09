@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar_general"/>
+
+    <LinearLayout
+        android:id="@+id/not_started_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <btm.odinandroidwallet.ui.profile.ui.StepPagerStrip
+            android:id="@+id/strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="left"
+            android:paddingBottom="8dp"
+            android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+            android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+            android:paddingTop="16dp" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/dividerHorizontal" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/prev_button"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selectable_item_background"
+                android:text="@string/prev" />
+
+            <Button
+                android:id="@+id/next_button"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selectable_item_background"
+                android:text="@string/next" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pending_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/tos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/update_profile_success_msg"
+            android:textColor="@color/primary_gray_dark" />
+    </LinearLayout>
+
+</LinearLayout>

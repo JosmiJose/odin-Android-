@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:ignore="MissingPrefix"
+    android:padding="4dp"
+     >
+
+    <safety.com.br.progressimageview.ProgressImageView
+        android:id="@+id/icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/agency_logo_placeholder" />
+
+    <TextView
+        android:id="@+id/tv_spinnervalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+       android:layout_toRightOf="@+id/icon"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="RTC"
+        android:layout_centerVertical="true"
+        fontPath="fonts/Montserrat-Regular.ttf"
+       />
+
+</RelativeLayout>

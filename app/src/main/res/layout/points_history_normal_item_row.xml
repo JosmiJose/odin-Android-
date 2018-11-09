@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@color/white"
+    android:layout_weight="3"
+    android:gravity="center"
+   >
+
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ledger_row_header_date"
+            android:textColor="@color/black"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:textSize="@dimen/list_main_text_size"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/odin_token"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/token"
+        android:textColor="@color/black"
+        android:textSize="@dimen/list_main_text_size"
+        android:visibility="gone"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/odin_points"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/odin_points"
+        android:textColor="@color/product_green_medium"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:textSize="@dimen/list_main_text_size"
+
+       />
+
+
+</LinearLayout>

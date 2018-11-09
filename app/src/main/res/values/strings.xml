@@ -1,0 +1,370 @@
+<resources>
+    <string name="app_name">Odin Wallet</string>
+    <string name="create_a_wallet">Create a wallet</string>
+    <string name="log_in">Log in</string>
+    <string name="new_wallet">New Wallet</string>
+    <string name="strength_weak">Weak</string>
+    <string name="strength_medium">Regular</string>
+    <string name="strength_strong">Strong</string>
+    <string name="strength_normal">Normal</string>
+    <string name="agree_terms_of_service">By creating a new wallet , you agree to the</string>
+    <string name="create_wallet">Create Wallet</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="ssl_pinning_invalid">Secure connection to the host has failed. This might indicate malicious activity. Please verify your network connection and device before continuing.</string>
+    <string name="ssl_no_connection">We are unable to connect to the host to establish a secure connection. Please verify your network connection and device before continuing.</string>
+    <string name="retry">Retry</string>
+    <string name="exit">Exit</string>
+    <string name="invalid_email">Invalid email address</string>
+    <string name="invalid_mobile">Invalid mobile number</string>
+    <string name="empty_address">Please fill in the destination address</string>
+    <string name="invalid_address">Invalid Address</string>
+    <string name="empty_amount">Please fill in a valid amount</string>
+    <string name="no_enough_odin_balance">You dont have enough odin balance for this exchange</string>
+    <string name="too_many_decimal_points">Not allowed number of decimal points</string>
+    <string name="not_enough_balance">You do not have enough token balance</string>
+    <string name="not_enough_token_supply">There are not enough token supply </string>
+    <string name="not_enough_transaction_fee">You don not have enough Ethers for the fee of this transaction."</string>
+    <string name="min_trans_fee">  0.0001 ETH </string>
+    <string name="invalid_password">Invalid password</string>
+    <string name="invalid_password_too_short">Please enter more than 3 characters</string>
+    <string name="password_mismatch_error">Passwords do not match</string>
+    <string name="creating_wallet">Creating wallet</string>
+    <string name="hd_error">HD wallet error</string>
+    <string name="blockchain_tos">ODIN Terms of Service</string>
+    <string name="weak_password">The selected password is too weak . We strongly suggest you select a different one. Would you like to define a new password?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">cancel</string>
+    <string name="noImageAvailable">No Image Available</string>
+    <string name="dialog_continue">Continue</string>
+    <string name="password_reveal_warning">Be careful! Revealing this text allows your password to be copied to the clipboard, which can then be read by all applications on your device. Also be aware of people standing behind you!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pin_entry">Enter PIN</string>
+    <string name="swipe_receive_hint">Swipe to receive</string>
+    <string name="create_pin">Create PIN</string>
+    <string name="pin_4_strikes">4 failed PIN attempts. Please login again.</string>
+    <string name="password_or_wipe">Enter using your password or forget this wallet</string>
+    <string name="use_password">Use password</string>
+    <string name="wipe_wallet">Forget wallet</string>
+    <string name="password_entry">Please enter password</string>
+    <string name="validating_password">Validating Password…</string>
+    <string name="validating_pin">Validating PIN…</string>
+    <string name="zero_pin">0000 is an invalid PIN. Please try again.</string>
+    <string name="common_pin_dialog_title">Warning</string>
+    <string name="common_pin_dialog_message">The PIN you have selected is extremely common and may be easily guessed by someone with access to your phone within 3 tries. Do you still want to use this Pin? </string>
+    <string name="common_pin_dialog_try_again">Try again</string>
+    <string name="common_pin_dialog_continue">Continue</string>
+    <string name="confirm_pin">Confirm PIN</string>
+    <string name="pin_mismatch_error">PINs do not match</string>
+    <string name="invalid_pin">Invalid PIN. Please try again.</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="send_odin">Send</string>
+    <string name="receive_odin">Request</string>
+    <string name="overview">Transactions</string>
+    <string name="dashboard_title">Home</string>
+    <string name="portfolio_title">Portfolio</string>
+    <string name="exchange_title">Exchange</string>
+    <string name="portfolio_name">Name</string>
+    <string name="portfolio_value">ODIN Value</string>
+    <string name="portfolio_holdings">Holdings</string>
+    <string name="exchange_header">Exchange ODIN to Pre ICO Token</string>
+    <string name="rate">Rate :</string>
+    <string name="amount_label">0.000</string>
+    <string name="available_tokens">Available</string>
+    <string name="read_more">More about</string>
+    <string name="maximum">maximum</string>
+    <string name="minimum">minimum</string>
+    <string name="forgot_password">Forgot Password? </string>
+    <string name="logout_title">Logout</string>
+    <string name="logout_confirm_msg">Are you sure you want to logout?</string>
+    <string name="token">Token</string>
+    <string name="sent">Sent</string>
+    <string name="received">Received</string>
+    <string name="ico_token">ICO Token</string>
+    <string name="ledger_row_header_date">Date</string>
+    <string name="ledger_row_header_invest_id">Invest ID</string>
+    <string name="ledger_row_header_amount">Amount</string>
+    <string name="ledger_row_header_trans_id">Transaction Hash</string>
+    <string name="share_instructions">Tap to copy this address. Share it with the sender via email or text.</string>
+    <string name="scan_qr">Scan QR Code</string>
+    <string name="receive_address_to_clipboard">Copy this receive address to the clipboard? If so, be advised that other applications may be able to look at this information.</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+    <string name="odin_points">ODIN Points</string>
+    <string name="odin_divided_points">ODIN \nPoints</string>
+    <string name="news_feed">News Feed</string>
+    <string name="news_details">News Details</string>
+    <string name="subscription">Subscription</string>
+    <string name="faq">FAQ</string>
+    <string name="help_center">Help Center</string>
+    <string name="send_choose_coin">Choose coin to send  </string>
+    <string name="enter_wallet_address">Enter Wallet Address </string>
+    <string name="enter_amount">Enter Amount </string>
+    <string name="transaction_fee">Min Txn Fee :  </string>
+    <string name="points_info">Info</string>
+    <string name="points_history">History</string>
+    <string name="redeemable_points">Redeemable Points</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="subscription_title">Subscription</string>
+    <string name="available_points">Available ODIN Points : </string>
+    <string name="select_package">Please select your desired subscription</string>
+    <string name="profile">Profile</string>
+    <string name="options_id">Wallet ID</string>
+    <string name="account_status">Account Status</string>
+    <string name="mobile">Mobile</string>
+    <string name="security">Security</string>
+    <string name="change_pin_code">Change PIN</string>
+    <string name="change_password">Change Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="app">App</string>
+    <string name="how_to_earn_points">How to earn points ?</string>
+    <string name="preferences_about_title">About Us</string>
+    <string name="options_tos">Terms of Service</string>
+    <string name="options_privacy">Privacy Policy</string>
+    <string name="backup_key">Backup Key</string>
+    <string name="guid_to_clipboard">Copy your Wallet ID to the clipboard? If so, be advised that other applications may be able to look at this information.</string>
+    <string name="trans_to_clipboard">Copy Transaction hash to the clipboard? If so, be advised that other applications may be able to look at this information.</string>
+    <string name="backup_guid_to_clipboard">Copy your back up key to the clipboard? If so, be advised that other applications may be able to look at this information.</string>
+    <string name="verify_email2">Your verified email address is used to send alerts to you when necessary.</string>
+    <string name="update">Update</string>
+    <string name="resend">Resend</string>
+    <string name="not_specified">not specified</string>
+    <string name="not_available">not available</string>
+    <string name="verify">Verify</string>
+    <string name="password_changed_notice">Your password has been changed</string>
+    <string name="warning">Warning</string>
+    <string name="change_password_summary">Your password is never shared with our servers, which means we cannot help reset your password if you forget it. Make sure you backup your funds from the side menu which can restore access to your wallet in the event of a lost password.</string>
+    <string name="polite_no">No thanks</string>
+    <string name="change_password_new_matches_current">You can\'t use your current password as your new password</string>
+    <string name="password_changed">Password changed</string>
+    <string name="email_sent">Email Sent</string>
+    <string name="email_not_verified">Email Verification</string>
+    <string name="email_sent_msg">Reset password link has been sent to your email .. </string>
+    <string name="email_not_verified_msg">Your email is not verified .Please click on the link sent to your email upon registeration </string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="kyc">KYC</string>
+    <string name="wallet">Wallet</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="middle_name_hint">Middle Name</string>
+    <string name="date_of_birth_hint">Date of Birth</string>
+    <string name="email_hint">Email</string>
+    <string name="mobile_number_hint">Mobile Number</string>
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="review">Review</string>
+    <string name="finish">Submit updates</string>
+    <string name="label_your_name">Name</string>
+    <string name="label_your_email">Email</string>
+    <string name="hint_your_name">e.g. Larry</string>
+    <string name="hint_your_email">Optional</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="hint_gender">I am</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="proof_of_identity">Proof Of Identity</string>
+    <string-array name="document_type">
+        <item>ID</item>
+        <item>Passport</item>
+        <item>Driving License</item>
+    </string-array>
+    <string name="hint_document_type">Document Type</string>
+    <string name="number_hint">Number</string>
+    <string name="tax_hint">Tax ID</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="front_image_text">Front Image</string>
+    <string name="back_image_text">Utility Bill</string>
+    <string name="selfie_image_text">Selfie</string>
+    <string name="your_name">Your name</string>
+    <string name="your_f_name">Your first name</string>
+    <string name="your_m_name">Your middle name</string>
+    <string name="your_l_name">Your Last name</string>
+    <string name="your_dob">Your Date of birth</string>
+    <string name="your_gender">Your Gender is</string>
+    <string name="your_country">Your Residential Country is</string>
+    <string name="your_phone">Your Phone is</string>
+    <string name="your_doc_type">Your Document Type is</string>
+    <string name="your_doc_number">Your Document number is</string>
+    <string name="your_doc_expiry_date">Your Document expiry date is</string>
+    <string name="your_nationality">Your nationality is</string>
+    <string name="nationality">Nationality</string>
+    <string name="document_type">Type of Document</string>
+    <string name="your_phone_country">Your phone country is</string>
+    <string name="your_home_country">Your home country is</string>
+    <string name="your_front_image">Your document front image is</string>
+    <string name="your_back_image">Your utility bill is</string>
+    <string name="your_selfie_image">Your document selfie image is</string>
+    <string name="action_photo_pick">Add media</string>
+    <string name="action_photo_take">Take photo</string>
+    <string name="error_media_upload_opening">That file could not be opened.</string>
+    <string name="error_media_upload_size">The file must be less than 2MB.</string>
+    <string name="error_media_upload_image_or_video">Images and videos cannot both be attached to the same status.</string>
+    <string name="error_media_upload_type">That type of file cannot be uploaded.</string>
+    <string name="action_set_caption">Set caption</string>
+    <string name="action_remove_media">Remove</string>
+    <string name="action_delete">Delete</string>
+    <string name="phone_number">Phone number</string>
+    <string name="state_hint">State</string>
+    <string name="city_hint">City</string>
+    <string name="zipcode_hint">Zip Code</string>
+    <string name="address1_hint">Address 1</string>
+    <string name="address2_hint">Address 2</string>
+    <string name="residential_address">Residential Address</string>
+    <string name="country">Country of Residence</string>
+    <string name="home_country">Home Country</string>
+    <string name="your_state">Your state is</string>
+    <string name="your_city">Your city is</string>
+    <string name="your_zipcode">Your zip code is</string>
+    <string name="your_address1">Your address1 is</string>
+    <string name="your_address2">Your address2 is</string>
+    <string name="main_page_buy">BUY</string>
+    <string name="ico_about">About</string>
+    <string name="ico_reviews">Reviews</string>
+    <string name="ico_team">Team</string>
+    <string name="website">Website</string>
+    <string name="ticker">Ticker</string>
+    <string name="total_supply">Total Supply</string>
+    <string name="ico_start_date">ICO Start Date</string>
+    <string name="ico_end_date">ICO End Date</string>
+    <string name="company_description">Company Description</string>
+    <string name="contract_address">Contract Address</string>
+    <string name="est_date_of_release">Estimation date for token release</string>
+    <string name="subscription_history">History</string>
+    <string name="subscription_start_date">Start Date</string>
+    <string name="subscription_end_date">End Date</string>
+    <string name="subscription_type">Type</string>
+    <string name="subscription_points">Points</string>
+    <string name="registeration_error">Unable to do registeration , please try again later</string>
+    <string name="change_password_error">Unable to change password , please try again later</string>
+    <string name="prev_password_incorrect">Current Password incorrect</string>
+    <string name="login_error">Unable to login , please try again later</string>
+    <string name="reset_password_error">Unable to reset password , please try again later</string>
+    <string name="logout_error">Unable to logout , please try again later</string>
+    <string name="create_profile_error">Unable to update profile , please try again later</string>
+    <string name="too_large_name">Too large name</string>
+    <string name="does_not_accept_numbers">This field can not contain numbers</string>
+    <string name="does_not_accept_special_characters">This field can not contain special characters</string>
+    <string name="unverified_profile">Your profile is unverified to do this transaction</string>
+    <string name="auth_prefix">Token</string>
+    <string name="success_register_title">Registeration Success</string>
+    <string name="success_register">Your account has been created successfully , please check your email inbox and verify your email to be able to login to the wallet</string>
+    <string name="back_to_main">Back to the main page</string>
+    <string name="back_to_landing">Back to the landing page</string>
+    <string name="get_profile_error">Unable to get the profile , please try again later</string>
+    <string name="no_network_error">No internet connection</string>
+    <string name="send_token_error">Unable to send token , please try again later</string>
+    <string name="exchange_pre_ico_failed">Unable to exchange pre ico , please try again later</string>
+    <string name="your_purpose_of_action">Your Purpose of Action is</string>
+    <string name="your_planned_investment_range">Your planned investment range is</string>
+    <string name="your_industry">Your industry is</string>
+    <string name="your_work_type">Your work type is</string>
+    <string name="your_tax_id">Your tax id is</string>
+    <string name="investment_details">Investment Details</string>
+    <string name="industry">Industry</string>
+    <string name="purpose_of_action">Purpose of Action</string>
+    <string name="planned_invest_range">Planned Investment Range</string>
+    <string name="work_type">Work Type</string>
+    <string name="odin">ODIN</string>
+    <string name="etherum">Ethereum</string>
+    <string name="update_profile_success">Update Profile Success</string>
+    <string name="update_pin_success">Update Pin Success</string>
+    <string name="send_token_success">Send Token Success</string>
+    <string name="exchange_token_success">Exchange Token Success</string>
+    <string name="update_profile_success_msg">Your profile was updated successfully; it is now pending approval. You will be informed via email once your profile is approved.</string>
+    <string name="update_pin_success_msg">Your pin was updated successfully </string>
+    <string name="status_not_updated">Not Updated</string>
+    <string name="status_pending">Pending for verification</string>
+    <string name="status_approved">Verified</string>
+    <string name="status_rejected">Unverified</string>
+    <string name="get_history_error">Unable to load history , please try again later</string>
+    <string name="get_news_failed">Unable to load news , please try again later</string>
+    <string name="get_data_error">Unable to load data , please try again later</string>
+    <string name="get_subscription_list_error">Unable to load subscription packages , please try again later</string>
+    <string name="no_data_available">No Data Available</string>
+    <string name="no_team_members_added">No Team Members Added</string>
+    <string name="premium_news">Premium News</string>
+    <string name="premium_pre_ico">Premium Pre ICOs</string>
+    <string name="subscribe_error">Subscription error</string>
+    <string name="subscribe_success">Subscription Success</string>
+    <string name="subscribe_success_msg">You have successfully subscribed, now you will have access to the premium news and Pre ICOs throughout the subscription duration</string>
+    <string name="subscription_duration_part_one">You will have a premium Access For</string>
+    <string name="subscription_duration_part_two">days</string>
+    <string name="format_relative_time_with_prefix">Updated On %1$s</string>
+    <string name="profile_should_be_updated">Your account status must be verified in order to perform this operation</string>
+    <string name="account_must_be_verified_qr">Your account status must be verified to view the wallet id and QR Code</string>
+    <string name="you_are_memeber">You are currently a premium user</string>
+    <string name="you_dont_have_enough_points">You do not have enough points to subscribe with this package</string>
+    <string name="you_are_not_memeber">You are not a premium user</string>
+    <string name="company_name_prefix">Company : </string>
+    <string name="private_key">Private Key </string>
+    <string name="seed">Seed </string>
+    <string name="status">Status </string>
+    <string name="request_camera_permission">Camera access is required.</string>
+    <string name="ok_cap">OK</string>
+    <string name="no_current_icos">There are no ICOs available for exchange</string>
+    <string name="no_current_holdings">You do not have any holdings which are ready to be sent, you need to purchase or receive tokens before sending them</string>
+    <string name="camera_unavailable">The camera is currently opened by another application. Please close other application and try again.</string>
+    <string name="update_profile_reminder">You need to update your profile to use your wallet, do you want to update your profile now? </string>
+    <string name="upload_photo_guidlines_title">Upload Photo Guidelines</string>
+    <string name="upload_photo_guidlines">1. Clear photo and good quality image within 2MB limit \n- if the file is already very small, do not compress it) \n- select digital cameras with resolution of AT LEAST 2.0 megapixel \n\n2. Selfie should be clear without flares (ie. light reflection) especially when the person is wearing spectacles\n\n3. Both ID and selfie must be uploaded in an upright orientation\n\n4. For selfie, make sure that the person faces the camera and not taken at an angle.\n\n5. File format must be either JPEG or PNG. PDF cannot pass through facial comparison </string>
+    <string-array name="purpose_options">
+        <item>Select an Option</item>
+        <item>Short term Investment</item>
+        <item>Long term Investment</item>
+        <item>Spending on eCommerce</item>
+    </string-array>
+    <string-array name="planned_options">
+        <item>Select an Option</item>
+        <item>US$1-$200</item>
+        <item>US$201-$1,000</item>
+        <item>US$1,001-$5,000</item>
+        <item>US$5,001-$25,000</item>
+        <item>US$25,001+</item>
+    </string-array>
+    <string-array name="Industry_options">
+        <item>Select an Option</item>
+        <item>Agriculture, forestry and fishing</item>
+        <item>Minning and quarrying</item>
+        <item>Manufacturing</item>
+        <item>Electricity,gas,steam,and air conditioning supply</item>
+        <item>Water supply, sewerage, waste management</item>
+        <item>Construction</item>
+        <item>Wholesale and retail trade ; repair of motor vehicles</item>
+        <item>Transportation and storage</item>
+        <item>Accomodation and food service delivery</item>
+        <item>Information and communication</item>
+        <item>Financial and insurance activities</item>
+        <item>Real estate activities</item>
+        <item>Professional, scientific and technical activities</item>
+        <item>Administrative and support service activities</item>
+        <item>Public Administration and defence; compulsory social security</item>
+        <item>Education</item>
+        <item>Human health and social work activities</item>
+        <item>Arts,entertainment and recreation</item>
+        <item>Other service activities</item>
+        <item>Activities of households as employers</item>
+        <item>Activities of extraterritorial organizations and bodies</item>
+    </string-array>
+    <string-array name="work_type_options">
+        <item>Select an Option</item>
+        <item>Self-Employed / Business Owner</item>
+        <item>Salaried-Executive Level</item>
+        <item>Salaried-General</item>
+        <item>Homemaker</item>
+        <item>Student</item>
+        <item>Unemployed</item>
+        <item>Retired</item>
+    </string-array>
+    <string name="tax_id_note">For guidelines on filling Tax ID please refer to KYC at odinwallet.io</string>
+    <string name="invalid_age">Age must be 15+</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="allow_only_english_alphabet">Input should only be in English Alphabet characters.</string>
+    <string name="rooted_device_title">Rooted Device Threate</string>
+    <string name="rooted_device_body">You are not allowed to run this app on a rooted device</string>
+    <string name="close_app">Close App</string>
+</resources>
